@@ -1,0 +1,17 @@
+{
+  "messageId": "msg-demo-001",
+  "type": "WagerTransactionRequested",
+  "occurredAt": "2026-11-11T15:00:00.000Z",
+  "correlationId": "demo-sqs-001",
+  "data": {
+    "providerId": "provider-a",
+    "externalTransactionId": "bet-queue-001",
+    "idempotencyKey": "provider-a:bet-queue-001",
+    "playerId": "0192f28f-5dc0-7d58-bdb2-814ad6a0f4a1",
+    "walletId": "0192f291-27dd-7d3f-8071-5f8685deef37",
+    "roundId": "round-queue-001",
+    "gameId": "game-demo",
+    "kind": "BET",
+    "money": { "amount": "25.00", "currency": "BRL" }
+  }
+}
